@@ -32,14 +32,19 @@ provider :statemangemnet
 >>>>>>>>
 HOME SCREEN(Task manager)
 ------------------------
--Added  offline/online status indicator if Online it will show Green color circle 
+-its offline-first design project,
+-Added  offline/online status indicator if its Online it will show Green color circle 
  in Offline it will Show Red Circle 
-Offline AlertBox Will displayed When App in Offline Mode
--For new Adding New Task Press Floating Action Button(+) it will show Some Field After fill The field Press Save Button Redirect to
-HomepAGE , IT CAN Show list of Task with Wave Animation
-Tasks with approaching deadlines (e.g., within 24 hours) it will display a warning icon
-
-The task are overdue it Add seperated List section OverdueTask else it will show other task
-also seperate wave color based on Priority
+-Offline AlertBox Will displayed When App in Offline Mode
+-For Adding New Task=>  Press Floating Action Button(+) it will show Some Field ,After fill The field Press Save Button Redirect to
+HomePage , IT CAN Show list of Task with Wave Animation
+Task with approaching deadlines (e.g., within 24 hours) it will display a warning icon
+The task are overdue it Added seperate List section with Error Icon the Head is isOverdueTask ,
+else without overdue task it will show inside Upcoming task with green check icon ,
+ if the deadline is within 24 hours added seperate Warning icon 
+also added seperate wave color based on Priority
 Sync task with Firebase Firestore when the app is online ,Only Completed Task move to Firestore
 
+=========For The delete/edit Task-------------
+inside TaskManger Page,
+Slide the ListTile from Right to Left it will show edit and delete Button then easy to edit or delete the task
