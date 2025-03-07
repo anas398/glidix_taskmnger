@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "414859422297",
+    "project_id": "glidixtaskmngr",
+    "storage_bucket": "glidixtaskmngr.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414859422297:android:568fa36c4aab31de4e9f48",
+        "android_client_info": {
+          "package_name": "com.example.taskmanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFoen0U8MgvG6YFuLpvQdOFvTzJXpucnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
