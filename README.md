@@ -44,7 +44,10 @@ else without overdue task it will show inside Upcoming task with green check ico
  if the deadline is within 24 hours added seperate Warning icon 
 also added seperate wave color based on Priority
 Sync task with Firebase Firestore when the app is online ,Only Completed Task move to Firestore
+Also Added Export and Import Task Functionality  for using Sqlite database  stored locally.(Arrow Down =Import and Arrow Up=Export)
+
 
 =========For The delete/edit Task-------------
 inside TaskManger Page,
 Slide the ListTile from Right to Left it will show edit and delete Button then easy to edit or delete the task
+
